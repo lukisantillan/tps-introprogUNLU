@@ -1,0 +1,10 @@
+def conversion(): 
+    pesos = float(input("ingrese su dinero:"))
+    dolar = round(pesos / 80.5)
+    euro = round(pesos / 69.5)
+    real = round(pesos / 14.1)
+    print("Usted tiene " + str(pesos) + " pesos argentinos, los cuales se convierten en: ")
+    print("- U$"+ str((dolar)) + " dolares")
+    print("- R$"+ str((euro)) + " reales")
+    print("- U$"+ str((real)) + " reales")
+print(conversion())
